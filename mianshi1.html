@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            border:2px solid #ccc ;
+            border-radius: 10px;
+            width: 700px;;
+        }
+    </style>
+</head>
+
+
+<body>
+    <!--注册表单-->
+    <form>
+        <fieldset>
+            <legend>注册表</legend>
+    <!--输入框-->
+            <label for="uname">姓名：</label>
+            <input type="text" id="uname" placeholder="请输入用户名">
+            <br/><br/>
+    <!--单选框-->
+            <label>性别：</label>
+            <label>男</label>
+            <input type="radio" name="garden" value="1">
+            <label>女</label>
+            <input type="radio" name="garden" value="2">
+            <br/><br/>
+    <!--密码框-->
+            <label for="pass">密码：</label>
+            <input type="password" id="pass" placeholder="请输入密码">
+            <br/><br/>
+    <!--数字框-->
+            <label for="number">电话：</label>
+            <input type="number" id="number" placeholder="请输入用户电话">
+            <br/><br/>
+    <!--邮件框-->
+            <label for="email">姓名：</label>
+            <input type="email" id="email" placeholder="请输入邮箱">
+            <br/><br/>
+    <!--下拉列表-->
+            <label>学历：</label>
+            <select>
+                <option value="小学">小学</option>
+                <option value="初中">初中</option>
+                <option value="高中">高中</option>
+                <option value="本科" select="select">本科</option>
+                <option value="硕士">硕士</option>
+                <option value="博士">博士</option>
+            </select>
+            <br/><br/>
+    <!--文本输入域-->
+            <label>经历：</label>
+            <br/>
+            <textarea rows="15" cols="50" name="wenben">请输入文本</textarea>
+    </fieldset>
+        <br/><br/>
+    </form>
+
+
+        <!--几个超链接-->
+        <a href="https://www.baidu.com/" title="百度" target="_blank">百度</a>
+        <br/>
+        <a href="https://weibo.com/" title="女厕所" target="_blank">微博</a>
+        <br/>
+        <a href="https://tieba.baidu.com/index.html" title="男厕所" target="_blank">百度贴吧</a>
+        <br/>
+        <!--图片插入-->
+        <img src="E:\Codefield\HTML\myporoject\image\image_1\jjdjr.jpeg" height="200" width="300" alt="下载失败" title="进击的巨人">
+        <br/><br/>
+        <input type="submit" value="提交">&nbsp;&nbsp;&nbsp;
+        <input type="reset" value="重置">
+</body>
+</html>
